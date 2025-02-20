@@ -1,13 +1,13 @@
-# FFSL Seizure Detection
+## FFSL Seizure Detection
 
 This repository contains the code for the Master's Thesis:  
 **"Multiclass Epileptic Seizure Detection Using Few-Shot Learning with a Federated Learning Extension."**
 
 ---
 
-## Dataset: TUH EEG Corpus
+### Dataset: TUH EEG Corpus
 
-### Request Access
+#### Request Access
 To obtain the **TUH EEG Corpus**, you need to **request access** by following these steps:
 
 1. Fill out [this form](https://isip.piconepress.com/projects/nedc/forms/tuh_eeg.pdf).
@@ -16,7 +16,7 @@ To obtain the **TUH EEG Corpus**, you need to **request access** by following th
    _(Include "Download The TUH EEG Corpus" in the subject line.)_
 
 
-### Download the Dataset
+#### Download the Dataset
 
 **For the TUH EEG Events Corpus (TUEV):**  
 The dataset contains **EEG segments labeled into six classes**:
@@ -38,7 +38,7 @@ After downloading, place the "edf" folder inside the repository directory.
 
  
 
-##  **Data Preprocessing**
+###  **Data Preprocessing**
 Before model training, for dataset preprocessing run the command:
 ```bash
 python3 data_preprocessing.py --root_dir "path_to_dataset_directory"
@@ -48,7 +48,7 @@ To create the dataset split for Few-Shot Learning (FSL), run
 python3 few_shot_datasplit.py
 ```
 
-## **Model Training**
+### **Model Training**
 
 Train the three classifiers using the following commands:
 
@@ -66,7 +66,7 @@ python3 fsl_transformer.py
 ```
 results are stored in directory `results/results_{classifier}`
 
-## Federated Few-Shot Learning (FFSL)
+### Federated Few-Shot Learning (FFSL)
 As Federated Few-Shot Learning (FFSL) is part of a company project, the code cannot be made public.
 However, if you are interested, feel free to send me a request
 
