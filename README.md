@@ -15,15 +15,6 @@ To obtain the **TUH EEG Corpus**, you need to **request access** by following th
    📩 **help@nedcdata.org**  
    _(Include "Download The TUH EEG Corpus" in the subject line.)_
 
- **Institutional Address (if required for the form):**
-
-~ Your Name ~
-Johannes Kepler University
-Institute for Machine Learning
-Altenbergerstraße 69
-4040 Linz
-Austria
-
 
 ### Download the Dataset
 
